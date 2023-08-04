@@ -113,10 +113,6 @@ h2 {
     margin-bottom: 1rem;
 }
 
-h3 {
-    line-height: 1;
-}
-
 p {
     font-weight: 200;
     line-height: 1.4;
@@ -173,12 +169,20 @@ header {
     background-image: url('/images/the-sleep-co4.jpg');
     background-size: cover;
     background-position: center;
+    padding: 2% 5%;
 }
 
 header h3 {
     font-size: 5.5rem;
     line-height: 1;
 }
+
+nav a {
+    padding: 0.5rem;
+    line-height: 1;
+    border: none;
+}
+
 
 footer a {
     border: none;
@@ -211,7 +215,7 @@ footer a {
 .fa {
     display: block;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: 3rem;
 }  
 
@@ -222,3 +226,123 @@ footer a {
     color: rgb(120,120,125);
     line-height: 1;
 }
+
+
+/* Buttons & Forms  ------------ */
+input,
+textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: 0.3rem;
+    padding: 0.5rem;
+    font-family: inherit;
+    font-size: 0.9rem;
+    border: 2px solid transparent;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid #FFBE00;
+    outline: none;
+}
+
+button {
+    padding: 0.5rem 2rem;
+    background-color: #FFBE00;
+    color: inherit;
+    appearance: none;
+    border: 2px solid #FFBE00;
+  }
+
+
+/* General CSS Responsive Styles (Apply everywhere, unless overridden)*/  
+.show-xs, 
+.show-sm,
+.show-md {
+	display: none;
+}
+
+/* --------------- MD Media Query (64em / 1024px) --------------- */ 
+/* Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
+
+@media (max-width: 64em) {
+
+    body { border: 2px solid green; padding: 0.5rem;}
+
+	.show-md { display: block; }
+	.hide-md { display: none; }
+
+    .md-tall-80 {min-height: 80vh;}
+}
+
+/* --------------- SM Media Query (48em / 768px) --------------- */ 
+/* Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */ 
+
+@media (max-width: 48em) {
+
+    body { border: 2px solid blue;}
+
+    html    { font-size: 14px;}
+    p       { font-size: 1.1rem;}
+
+	.show-sm { display: block; }
+	.hide-sm { display: none; }
+
+    .sm-text-center {text-align: center;}
+    .sm-text-left {text-align: left;}
+    .sm-text-right {text-align: right;}
+
+    .sm-padded {padding: 5%;}
+    .sm-padded-1 {padding: 1rem;}
+    .sm-padded-05 {padding: 0.5rem;}
+
+    .sm-padded-t-0 {padding-top: 0;}
+    .sm-padded-b-0 {padding-bottom: 0;}
+    .sm-margin-t-0 {margin-top: 0;}
+    .sm-margin-b-0 {margin-bottom: 0;}
+
+    .logo h2 { font-size: 2rem;}
+    header h3 { font-size: 11vw;}
+}
+
+/* --------------- XS Media Query (36em / 576px) --------------- */ 
+/* Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
+
+@media (max-width: 36em) {
+
+    body { border: 2px solid red;}
+
+		.show-xs { display: block; }
+		.hide-xs { display: none; }
+
+        h1 {
+            font-size: 1.4rem;
+            line-height: 1.1;
+        }
+
+        h2 { font-size: 2rem; }
+
+        .big-text       { font-size: 3.5rem; }
+        .medium-text    { font-size: 1.5rem; }
+
+        .xs-tall-50 { min-height: 50vh; }
+
+        
+}
+
+
+/* --------------- XXS Media Query (25em / 400px) --------------- */ 
+/* Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
+
+@media (max-width: 25em) {
+
+    html { font-size: 12px;}
+
+	[class*=grid] .xxs-stack { 
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+		
+}
+
+
