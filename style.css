@@ -78,6 +78,8 @@
     background-color: #192B37;
     color: white;
 }
+.bg-featured { background-color:#FFBE00;}
+.bg-light { background-color:#E3ECF2;}
 
 
 /* Image Styles */
@@ -86,15 +88,23 @@
     background-image: url('/images/the-sleep-co1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 10rem;
+    /*min-height: 10rem;*/
 }
 
+.landscape {    padding-bottom: 65%;}
+.portrait {    padding-bottom: 125%;}
+.square {    padding-bottom: 100%;}
 
 /* Typography Styles--------------------- */
 
 body {
     font-family: 'Catamaran', sans-serif;
     color:#192B37;
+}
+
+h2, h3, h4, h5, h6 {
+	line-height: 1.1;
+	margin-bottom: 1rem;
 }
 
 h2 {
