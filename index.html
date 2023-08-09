@@ -15,15 +15,14 @@
     <!-- Gridlex for flexbox grids -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
-    <!-- Google fonts- Catamaran (200,400,500,800)-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
 
     <!-- Google fonts- Source Sans 3 (200,300,400,500)-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
+
+    <!-- This is google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0" />
 
     <!--This is our custom stylesheet -->
     <link href="/style.css" rel="stylesheet">
@@ -54,20 +53,158 @@
             <h1 class="light-text padded"> Welcome to Luna's 
                 <br> Guest House
             </h1>
-            <a href="#" class="uppercase center button"> Stay with us </a>
+            <a href="#" class="uppercase center button feature-button"> Stay with us </a>
         </div>
     </header>
 
-    <!--------------- Gallery / about Section --------------->
-    <section class="grid">
-        <div class="padded col-6_xs-12-middle">
-            <h2> build to last a <span class="featured-text">lifetime</span> </h2>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo nisi tenetur consequuntur quasi perspiciatis autem et. Alias pariatur enim, fugiat maiores sint veritatis. </p>
-            <p> Lorem ipsum dolor sit amet consectetur modi illum impedit, natus laboriosam corrupti qui.</p>
+
+    <!--------------- Booking entry /availability checker PLACEHOLDER ---------->
+
+    <section>
+        <div class="col-12 padded">
+            <form>
+                <input type="text" name="_name" placeholder="Check-in">
+                <input type="email" name="_replyto" placeholder="Check-out">
+                <textarea name="message" placeholder="Guests" rows="4"></textarea>
+                <button class="button" type="submit"> Search </button>
+            </form>
         </div>
-        <div class="bg-image bg-bed col-6_xs-12 tall-70"> 
+    </section>
+
+
+    <!-------------- About Section --------------->
+    <section class="grid">
+        <div class="padded padded-b-1 col-9_xs-12-middle">
+            <h2 class="uppercase"> The Guest House </h2>
+            <h3> Lorem ipsum dolor sit amet consectetur </h3>
+        </div>
+        <div class="col-4">
+        </div>
+        <div class="padded padded-t-0 col-8_xs-12"> 
+            <p> Lorem ipsum dolor sit amet consectetur modi illum impedit, natus little aboriosam corrupti qui. Illo nisi tenetur consequuntur quasi perspiciatis autem et. Alias pariatur enim, a few fugiat maiores sint veritatis. Elit non odit reprehenderit accusamus, maxime ab voluptates, distinctio facilis hic ad repellat eum quisquam aliquam totam temporibus voluptatibus asperiores amet minus? Quo.</p>
+            <a href="#" class="button uppercase"> Discover more</a>
+        </div>
+       <!---- Image About Section --->
+       <div class="grid-spaceBetween padded">
+            <div class="bg-image width-30 tall-60 bg-library col-3_xs-12-middle hide-xs">
+                <!--background image-->
+            </div>
+            <div class="bg-image width-30 tall-70 bg-bed col-4_xs-12-middle hide-xs">
+                <!--background image-->
+            </div>
+            <div class="bg-image width-30 tall-60 bg-bath col-3_xs-12-middle hide-xs">
+                <!--background image-->
+            </div>
+        </div>
+    </section>  
+
+
+    <!--------------- Features Amenities --------------->
+    <section class="padded grid bg-featured">
+        <div class="padded-sm col-12 center"> 
+            <h2> <span class="big-text"> Amenities</h2>
+        </div>
+        <div class="padded-sm col-4_sm-6 xxs-stack"> 
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <p class="uppercase center"><span class="material-symbols-outlined">
+                king_bed
+                </span>Breakfast</p>
+        </div>
+        <div class="padded-sm col-4_sm-6 xxs-stack"> 
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <p class="uppercase center">
+                <span class="material-symbols-outlined">water</span>
+                Breakfast
+            </p>
+        </div>
+        <div class="padded-sm col-4_sm-6 xxs-stack"> 
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <p class="uppercase center">Breakfast</p>
+        </div>
+        <div class="padded-sm col-4_sm-6 xxs-stack"> 
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <p class="uppercase center">Welcome Drink</p>
+        </div>
+        <div class="padded-sm col-4_sm-6 xxs-stack"> 
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <p class="uppercase center">Free Parking</p>
+        </div>
+        <div class="padded-sm col-4_sm-6 xxs-stack"> 
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <p class="uppercase center">Library</p>
+        </div>
+        <div class="padded-sm col-4_sm-6 xxs-stack"> 
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <p class="uppercase center">River View</p>
+        </div>
+        <div class="padded-sm col-4_sm-6 xxs-stack"> 
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <p class="uppercase center">Bicyles</p>
+        </div>
+        <div class="padded-sm col-4_sm-6 xxs-stack"> 
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <p class="uppercase center">Coffee</p>
+        </div>
+        
+    </section>
+
+
+<!-------------- Testimonial Section --------------->
+<section class="grid">
+    <div class="col-4"></div>
+    <div class="padded padded-b-1 col-8_xs-12-middle right">
+        <h2 class="uppercase"> Reviews </h2>
+        <h3> Lorem ipsum dolor sit amet consectetur we arrived</h3>
+    </div>
+    <div class="padded padded-t-0 col-8_xs-12"> 
+        <p> Lorem ipsum dolor sit amet consectetur modi illum impedit, natus little aboriosam corrupti qui. Illo nisi tenetur consequuntur quasi perspiciatis autem et. Alias pariatur enim, a few fugiat maiores sint veritatis. Elit non odit reprehenderit accusamus, maxime ab voluptates, distinctio facilis hic ad repellat eum quisquam aliquam totam temporibus voluptatibus asperiores amet minus? Quo.</p>
+    </div>
+    <div class="col-4"></div>
+    <div class="padded-sm col-3_sm-6 xxs-stack"> 
+        <i class="fa fa-cloud" aria-hidden="true"></i>
+    </div>
+    <div class="padded-sm col-3_sm-6 xxs-stack"> 
+        <i class="fa fa-cloud" aria-hidden="true"></i>
+    </div>
+    <div class="padded-sm col-3_sm-6 xxs-stack"> 
+        <i class="fa fa-cloud" aria-hidden="true"></i>
+    </div>
+    <div class="padded-sm col-3_sm-6 xxs-stack"> 
+        <i class="fa fa-cloud" aria-hidden="true"></i>
+    </div>
+
+</section>  
+
+
+<!-------------- Guide Section --------------->
+<section class="grid">
+    <div class="padded padded-b-1 col-9_xs-12-middle">
+        <h2 class="uppercase"> Our Alcatra Guide</h2>
+        <h3> From River Clean-ups to Gourmet Food</h3>
+    </div>
+    <div class="col-4">
+    </div>
+    <div class="padded padded-t-0 col-8_xs-12"> 
+        <p> Lorem ipsum dolor sit amet consectetur modi illum impedit, natus little aboriosam corrupti qui. Illo nisi tenetur consequuntur quasi perspiciatis autem et. Alias pariatur enim, a few fugiat maiores sint veritatis. Elit non odit reprehenderit accusamus, maxime ab voluptates, distinctio facilis hic ad repellat eum quisquam aliquam totam temporibus voluptatibus asperiores amet minus? So much do to, where shall we start?</p>
+        <a href="#" class="button uppercase"> Discover more</a>
+    </div>
+
+     <!---- Image Guide Section --->
+     <div class="grid-spaceBetween padded">
+        <div class="bg-image width-30 tall-60 bg-flower col-3_xs-12-middle hide-xs">
             <!--background image-->
         </div>
+        <div class="bg-image width-30 tall-70 bg-breakfast col-4_xs-12-middle hide-xs">
+            <!--background image-->
+        </div>
+        <div class="bg-image width-30 tall-60 bg-bottle col-3_xs-12-middle hide-xs">
+            <!--background image-->
+        </div>
+    </div>
+</section> 
+
+
+     <section> 
         <div class="bg-image bg-pug col-6_xs-12 tall-70 hide-xs">
             <!--background image-->
         </div>
@@ -77,28 +214,7 @@
         </div>
     </section>
 
-     <!--------------- Features Icon Grid --------------->
-     <section class="padded grid bg-dark">
-        <div class="padded-sm col-12 center"> 
-            <h2> <span class="featured-text">features </span> you will love </h2>
-        </div>
-        <div class="padded-sm col-3_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi aspernatur dolor vitae. Repudiandae provident illum quis vitae sed asperiores. Provident error repellendus illo fugiat iure hic temporibus architecto cum.</p>
-        </div>
-        <div class="padded-sm col-3_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi aspernatur dolor vitae. Repudiandae provident illum quis vitae sed asperiores. Provident error repellendus illo fugiat iure hic temporibus architecto cum.</p>
-        </div>
-        <div class="padded-sm col-3_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi aspernatur dolor vitae. Repudiandae provident illum quis vitae sed asperiores. Provident error repellendus illo fugiat iure hic temporibus architecto cum.</p>
-        </div>
-        <div class="padded-sm col-3_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi aspernatur dolor vitae. Repudiandae provident illum quis vitae sed asperiores. Provident error repellendus illo fugiat iure hic temporibus architecto cum.</p>
-        </div>
-     </section>
+    
 
      <!--------------- Image Banner section --------------->
 

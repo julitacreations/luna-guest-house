@@ -75,6 +75,7 @@
 .margin-l-0 { margin-left: 0; }
 .margin-r-0 { margin-right: 0; }
 
+.margin-t-1 { margin-top: 1rem; }
 
 /* Height Classes ---------- */
 
@@ -85,6 +86,10 @@
 .tall-90 { min-height: 90vh; }
 .tall-100 { min-height: 100vh; }
 
+/* wWdth Classes ---------- */
+
+.width-30 { min-width: 30vw; }
+
 
 /* Background & Background Images  ------------------- */
 
@@ -92,7 +97,7 @@
     background-color: #424237;
     color: #E6E6E1;
 }
-.bg-featured { background-color: ##C9BBAA;}
+.bg-featured { background-color: #C9BBAA;}
 .bg-light { background-color:#E6E6E1;}
 
 
@@ -116,19 +121,16 @@ body {
     color:#424237;
 }
 
-h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
 	line-height: 1.1;
 	margin-bottom: 1rem;
 }
 
-h2 {
-    font-size: 2.5rem;
-    line-height: 1.1;
-    margin-bottom: 1rem;
-}
+h2 { font-size: 1.3rem; }
+h3 { font-size: 4rem; }
 
 p {
-    font-weight: 200;
+    font-weight: 300;
     line-height: 1.4;
     margin-bottom: 1rem;
 }
@@ -150,12 +152,14 @@ a {
 }
 
 a:hover {
-    color:#FFBE00;
+    color: #D27456;
 }
 
-.font-weight-light      { font-weight: 200;}
-.font-weight-normal     { font-weight: normal;}
+.font-weight-light      { font-weight: 300;}
+.font-weight-normal     { font-weight: 400;}
 .font-weight-extra-bold { font-weight: 800;}
+
+.uppercase      { text-transform: uppercase;}
 
 .left           { text-align: left; }
 .center         { text-align: center; }
@@ -169,7 +173,7 @@ a:hover {
     font-size: 2rem;
     line-height: 1.1;
 }
-.big-text   { font-size: 5rem; }
+.big-text   { font-size: 4rem; }
 
 .subtitle {
     font-size: 1.2rem;
@@ -190,10 +194,6 @@ h1 {
     font-size: 7rem;
 }
 
-header h3 {
-    font-size: 5.5rem;
-    line-height: 1;
-}
 
 nav a {
     padding: 0.5rem;
@@ -205,7 +205,7 @@ nav a {
     background-color: #C9BBAA;
 }
 
-a .logo {
+.logo h2 {
     font-size: 2rem;
 }
 
@@ -224,11 +224,41 @@ footer a {
     background-repeat: no-repeat;
 } */
 
+
+.bg-library {   
+    background-image: url('/images/luna-guest-house-library.jpg');
+    background-position: 50% 42%;
+    border: 10px solid white;
+}
+.bg-bed {   
+    background-image: url('/images/luna-guest-house-bed-right.jpg');
+    background-position: 50% 42%;
+    border: 10px solid white;
+}
+.bg-bath {   
+    background-image: url('/images/luna-guest-house-bath.jpg');
+    border: 10px solid white;
+}
+.bg-flower {   
+    background-image: url('/images/luna-guest-house-flowers.jpg');
+    border: 10px solid white;
+}
+.bg-breakfast {   
+    background-image: url('/images/luna-guest-house-breakfast.jpg');
+    border: 10px solid white;
+}
+.bg-bottle {   
+    background-image: url('/images/luna-guest-house-plastic-bottle.jpg');
+    border: 10px solid white;
+}
+
+
 .bg-pug {   
     background-image: url('/images/the-sleep-co1.jpg');
     background-position: 50% 42%;
+    border: 10px solid white;
 }
-.bg-bed {   background-image: url('/images/the-sleep-co3.jpg');}
+.bg-bed {   background-image: url('/images/luna-guest-house-bed-right.jpg');}
 .bg-pillow {   
     background-image: url('/images/the-sleep-co2.jpg');
     background-position: 50% 54%;
@@ -240,9 +270,14 @@ footer a {
 .fa {
     display: block;
     text-align: center;
-    margin-bottom: 2rem;
-    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
 }  
+
+.material-symbols-outlined {
+    /*display: block;*/
+    line-height: 1;
+}
 
 /* Testimonial Block ------------ */
 .quote-icon {
@@ -267,17 +302,27 @@ textarea {
 
 input:focus,
 textarea:focus {
-    border: 2px solid #FFBE00;
+    border: 2px solid #9C452A;
     outline: none;
 }
 
-button {
+.button {
     padding: 0.5rem 2rem;
-    background-color: #FFBE00;
+    background-color: #C9BBAA;
     color: inherit;
     appearance: none;
-    border: 2px solid #FFBE00;
+    border: 2px solid #C9BBAA;
+    border-radius: 6px;
   }
+
+  .feature-button {
+    background-color: #D27456;
+    border: 2px solid #D27456;
+    color: #424237
+  }
+
+
+
 
 
 /* General CSS Responsive Styles (Apply everywhere, unless overridden)*/  
