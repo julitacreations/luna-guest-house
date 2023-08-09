@@ -22,6 +22,10 @@
     box-sizing: border-box;
 }
 
+/*
+[class*="col-"] {
+    padding: 0;
+  } */
 
 
 /* -------------- Universal Styles & utility classes--------------------- */
@@ -85,11 +89,11 @@
 /* Background & Background Images  ------------------- */
 
 .bg-dark {
-    background-color: #192B37;
-    color: white;
+    background-color: #424237;
+    color: #E6E6E1;
 }
-.bg-featured { background-color:#FFBE00;}
-.bg-light { background-color:#E3ECF2;}
+.bg-featured { background-color: ##C9BBAA;}
+.bg-light { background-color:#E6E6E1;}
 
 
 /* Image Styles */
@@ -108,8 +112,8 @@
 /* Typography Styles--------------------- */
 
 body {
-    font-family: 'Catamaran', sans-serif;
-    color:#192B37;
+    font-family: 'Source Sans 3', sans-serif;
+    color:#424237;
 }
 
 h2, h3, h4, h5, h6 {
@@ -157,8 +161,8 @@ a:hover {
 .center         { text-align: center; }
 .right          { text-align: right; }
 
-.light-text     { color: white; } 
-.featured-text  { color: #FFBE00; }
+.light-text     { color: #E6E6E1; } 
+.featured-text  { color: #9C452A; }
 
 .small-text { font-size: 1.5rem;}
 .medium-text {
@@ -175,11 +179,15 @@ a:hover {
 
 /* Header Styles & Footer Styles-------------------------  */ 
 
-header {
-    background-image: url('/images/the-sleep-co4.jpg');
+.header-bg {
+    background-image: url('/images/luna-guest-house-bed-end.jpg');
     background-size: cover;
     background-position: center;
     padding: 2% 5%;
+}
+
+h1 {
+    font-size: 7rem;
 }
 
 header h3 {
@@ -193,6 +201,13 @@ nav a {
     border: none;
 }
 
+.header-nav {
+    background-color: #C9BBAA;
+}
+
+a .logo {
+    font-size: 2rem;
+}
 
 footer a {
     border: none;
@@ -312,6 +327,7 @@ button {
     .sm-margin-b-0 {margin-bottom: 0;}
 
     .logo h2 { font-size: 2rem;}
+
     header h3 { font-size: 11vw;}
 }
 
