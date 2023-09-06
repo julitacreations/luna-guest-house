@@ -1,7 +1,7 @@
 /*  NOTES
     Colors: 
         Dark Green: #424237
-        Beige: #C9BBAA
+        Beige: #d9cfc2
         Light: #E6E6E1
         Orange: #D27456
         Rust: #9C452A
@@ -101,7 +101,7 @@
     background-color: #424237;
     color: #E6E6E1;
 }
-.bg-featured { background-color: #C9BBAA;}
+.bg-featured { background-color: #d9cfc2;}
 .bg-light { background-color:#E6E6E1;}
 
 
@@ -205,10 +205,11 @@ nav a {
     padding: 0.5rem;
     line-height: 1;
     border: none;
+    margin: 0.2rem;
 }
 
 .header-nav {
-    background-color: #C9BBAA;
+    background-color: #d9cfc2;
 }
 
 .logo h2 {
@@ -234,6 +235,19 @@ footer .fa {
     margin-bottom: 1rem;
     font-size: 1.8rem;
 } 
+
+.book-now-button {
+    padding: 0.5rem 1.4rem;
+    background-color: #D27456;
+    color: #E6E6E1;
+    appearance: none;
+    border: 2px solid #d27456;
+    border-radius: 6px;
+  }
+
+  .book-now-button:hover {
+    color: #424237;
+}
 
 
 
@@ -332,22 +346,21 @@ textarea:focus {
 
 .button {
     padding: 0.5rem 2rem;
-    background-color: #C9BBAA;
+    background-color: #d9cfc2;
     color: inherit;
     appearance: none;
-    border: 2px solid #C9BBAA;
+    border: 2px solid #d9cfc2;
     border-radius: 6px;
   }
 
 .feature-button {
     background-color: #D27456;
     border: 2px solid #D27456;
-    color: #424237
-    hover: #E6E6E1; 
+    color: #E6E6E1;
 }
 
 .feature-button:hover {
-    color: #E6E6E1;
+    color: #424237;
 }
 
 
