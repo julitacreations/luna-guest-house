@@ -22,10 +22,11 @@
     box-sizing: border-box;
 }
 
-/*
-[class*="col-"] {
-    padding: 0;
-  } */
+
+/* Gridlex reset*/
+[class*="col-"], [class*="col_"], [class~="col"]  {padding:0;}
+﻿
+[class*="grid-"], [class*="grid_"], [class~="grid"] {margin:0;} 
 
 
 /* -------------- Universal Styles & utility classes--------------------- */
@@ -104,6 +105,7 @@
 .bg-light { background-color:#E6E6E1;}
 
 
+
 /* Image Styles */
 
 .bg-image {
@@ -117,7 +119,8 @@
 .portrait {    padding-bottom: 125%;}
 .square {    padding-bottom: 100%;}
 
-/* Typography Styles--------------------- */
+
+/* Typography Styles--------------------------- */
 
 body {
     font-family: 'Source Sans 3', sans-serif;
@@ -217,7 +220,20 @@ footer a {
     display: block;
 }
 
+.display-link {display: inline-block;}
 
+.subtitle-footer {
+        font-size: 0.8rem;
+        font-style: italic;
+        font-weight: light;
+}
+
+footer .fa {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+} 
 
 
 
@@ -323,12 +339,16 @@ textarea:focus {
     border-radius: 6px;
   }
 
-  .feature-button {
+.feature-button {
     background-color: #D27456;
     border: 2px solid #D27456;
     color: #424237
-  }
+    hover: #E6E6E1; 
+}
 
+.feature-button:hover {
+    color: #E6E6E1;
+}
 
 
 
