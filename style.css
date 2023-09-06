@@ -63,6 +63,8 @@
 .padded-l-0 { padding-left: 0; }
 .padded-r-0 { padding-right: 0; }
 
+.padded-l-05 { padding-left: 0.5rem; }
+
 /* Margin Utility Classes -----------*/ 
 
 .margin-t { margin-top: 5%; }
@@ -76,6 +78,7 @@
 .margin-r-0 { margin-right: 0; }
 
 .margin-t-1 { margin-top: 1rem; }
+.margin-b-1 { margin-bottom: 1rem; }
 
 /* Height Classes ---------- */
 
@@ -211,7 +214,12 @@ nav a {
 
 footer a {
     border: none;
+    display: block;
 }
+
+
+
+
 
 
 /* Background Images—————————-—— */
