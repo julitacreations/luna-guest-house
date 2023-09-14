@@ -12,6 +12,10 @@
     <!-- This is our fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- This is our iconoir icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css">
+
+
     <!-- Gridlex for flexbox grids -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
@@ -64,27 +68,26 @@
     </section>
 
 
-
-
-
-
-
-
-
-
-
     <!--------------- Booking entry /availability checker PLACEHOLDER ---------->
 
     <section>
         <div class="col-12 padded">
             <form>
-                <input type="text" name="_name" placeholder="Check-in">
-                <input type="email" name="_replyto" placeholder="Check-out">
-                <textarea name="message" placeholder="Guests" rows="4"></textarea>
-                <button class="button" type="submit"> Search </button>
+                <label for="check-in-date">Check-in</label>
+                <input type="date" id="check-in-date" required>
+                        
+                <label for="check-out-date">Check-out</label>
+                <input type="date" id="check-out-date" required>
+                        
+                <label for="num-people">Guests</label>
+                <input type="number" id="num-people" min="1" required>
+                        
+                <input type="submit" value="Search">
             </form>
         </div>
     </section>
+
+
 
 
     <!-------------- About Section --------------->
@@ -116,49 +119,36 @@
 
     <!--------------- Features Amenities --------------->
     <section class="padded grid bg-featured">
-        <div class="padded-sm col-12 center"> 
+        <div class="padded-sm padded-t-0 col-12 center"> 
             <h2> <span class="big-text"> Amenities</h2>
         </div>
-        <div class="padded-sm col-4_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-            <p class="uppercase center"><span class="material-symbols-outlined">
-                king_bed
-                </span>Breakfast</p>
+        <div class="padded-sm padded-b-0 col-4_sm-6 xxs-stack"> 
+            <p class="uppercase center"><span class="material-symbols-outlined">king_bed</span>Breakfast</p>
         </div>
-        <div class="padded-sm col-4_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
+        <div class="padded-sm padded-b-0 col-4_sm-6 xxs-stack"> 
             <p class="uppercase center">
-                <span class="material-symbols-outlined">water</span>
-                Breakfast
-            </p>
+                <span class="material-symbols-outlined">water</span>Breakfast</p>
+        </div>
+        <div class="padded-sm padded-b-0 col-4_sm-6 xxs-stack">     
+            <p class="uppercase center"> <span class="material-symbols-outlined">restaurant</span>Breakfast</p>
+        </div>
+        <div class="padded-sm padded-b-0 col-4_sm-6 xxs-stack"> 
+            <p class="uppercase center"><span class="material-symbols-outlined">wine_bar </span>Welcome Drink</p>
+        </div>
+        <div class="padded-sm padded-b-0 col-4_sm-6 xxs-stack"> 
+            <p class="uppercase center"> <span class="material-symbols-outlined">local_parking</span>Free Parking</p>
+        </div>
+        <div class="padded-sm padded-b-0 col-4_sm-6 xxs-stack"> 
+            <p class="uppercase center"> <span class="material-symbols-outlined"> import_contacts</span>Library</p>
         </div>
         <div class="padded-sm col-4_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-            <p class="uppercase center">Breakfast</p>
+            <p class="uppercase center"><span class="material-symbols-outlined">water</span>River View</p>
         </div>
         <div class="padded-sm col-4_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-            <p class="uppercase center">Welcome Drink</p>
+            <p class="uppercase center"><span class="material-symbols-outlined"> directions_bike</span>Bicyles</p>
         </div>
         <div class="padded-sm col-4_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-            <p class="uppercase center">Free Parking</p>
-        </div>
-        <div class="padded-sm col-4_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-            <p class="uppercase center">Library</p>
-        </div>
-        <div class="padded-sm col-4_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-            <p class="uppercase center">River View</p>
-        </div>
-        <div class="padded-sm col-4_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-            <p class="uppercase center">Bicyles</p>
-        </div>
-        <div class="padded-sm col-4_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-            <p class="uppercase center">Coffee</p>
+            <p class="uppercase center"><span class="material-symbols-outlined">coffee</span>Coffee</p>
         </div>
         
     </section>
@@ -175,17 +165,19 @@
             <p> Surrounded by breathtaking natural beauty, we cherished our stay with Luna, Tom & Toby. We were seeking seeking respite from the ordinary and we found the extra-ordinary. Sit amet consectetur modi illum impedit, natus little aboriosam corrupti qui. Illo nisi tenetur consequuntur quasi perspiciatis autem et. Alias pariatur enim, a few fugiat maiores sint veritatis. Elit non odit reprehenderit accusamus, maxime ab voluptates, distinctio facilis hic ad repellat eum quisquam aliquam totam temporibus voluptatibus asperiores amet minus? Quo.</p>
         </div>
         <div class="col-4"></div>
-        <div class="padded-sm col-3_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-        </div>
-        <div class="padded-sm col-3_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-        </div>
-        <div class="padded-sm col-3_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-        </div>
-        <div class="padded-sm col-3_sm-6 xxs-stack"> 
-            <i class="fa fa-cloud" aria-hidden="true"></i>
+        <div class="col-12 grid-spaceAround">
+            <div class="padded-sm col-2_sm-3 xxs-stack"> 
+                <i class="fa fa-solid fa-trophy"></i>
+            </div>
+            <div class="padded-sm col-2_sm-3 xxs-stack"> 
+                <i class="fa fa-solid fa-star"></i>
+            </div>
+            <div class="padded-sm col-2_sm-3 xxs-stack"> 
+                <i class="fa fa-solid fa-award"></i>
+            </div>
+            <div class="padded-sm col-2_sm-3 xxs-stack"> 
+                <i class="fa fa-solid fa-medal"></i>
+            </div>
         </div>
 
     </section>  
