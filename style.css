@@ -34,6 +34,7 @@
 
 /* Padding Utility Classes ---------- */ 
 .padded { padding: 5%; }
+.padded-xs { padding: 1%;}
 .padded-sm { padding: 2.5%; }
 .padded-lg { padding: 10%;  }
 
