@@ -124,6 +124,8 @@
 .portrait {    padding-bottom: 125%;}
 .square {    padding-bottom: 100%;}
 
+.border { border: 10px solid white;}
+
 
 /* Typography Styles--------------------------- */
 
@@ -191,6 +193,17 @@ a:hover {
     color: rgb(120,120,125);
 }
 
+
+/* List Styles-------------------------  */ 
+
+ul {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1.5rem;
+  }
 
 /* Header Styles & Footer Styles-------------------------  */ 
 
@@ -292,29 +305,36 @@ footer .fa {
 .bg-library {   
     background-image: url('/images/luna-guest-house-library.jpg');
     background-position: 50% 42%;
-    border: 10px solid white;
 }
 .bg-bed {   
     background-image: url('/images/luna-guest-house-bed-right.jpg');
-    background-position: 50% 42%;
-    border: 10px solid white;
+    background-position: 50% 55%;
+}
+.bg-bed-left {   
+    background-image: url('/images/luna-guest-house-bed-left.jpg');
+    background-position: 50% 80%;
+}
+.bg-bed-night {   
+    background-image: url('/images/luna-guest-house-bed-night.jpg');
+    background-position: 50% 100%;
 }
 .bg-bath {   
     background-image: url('/images/luna-guest-house-bath.jpg');
-    border: 10px solid white;
 }
 .bg-flower {   
     background-image: url('/images/luna-guest-house-flowers.jpg');
-    border: 10px solid white;
 }
 .bg-breakfast {   
     background-image: url('/images/luna-guest-house-breakfast.jpg');
-    border: 10px solid white;
 }
 .bg-bottle {   
     background-image: url('/images/luna-guest-house-plastic-bottle.jpg');
-    border: 10px solid white;
 }
+.bg-hosts {   
+    background-image: url('/images/luna-guest-house-hosts.jpg');
+}
+
+
 
 
 .bg-pug {   
@@ -414,6 +434,8 @@ textarea:focus {
     appearance: none;
     border: 2px solid #d9cfc2;
     border-radius: 6px;
+    display: inline-block;
+    margin-top: 1rem;
   }
 
 .feature-button {
