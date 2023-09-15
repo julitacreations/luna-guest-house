@@ -343,6 +343,9 @@ footer .fa {
     background-image: url('/images/luna-guest-house-food.jpg');
     background-position: 50% 80%;
 }
+.bg-window {   
+    background-image: url('/images/luna-guest-house-window.jpg');
+}
 .bg-map {   
     background-image: url('/images/luna-guest-house-map.jpg');
 }
@@ -416,29 +419,25 @@ form label {
 }
 
 
-
-
-
-
-
-
-/* This is old form for sleepco project -delete once done 
-input,
+/*Contact form version 2*/
+.form-2 input,
 textarea {
     width: 100%;
     display: block;
+    margin: 0rem;
     margin-bottom: 0.3rem;
     padding: 0.5rem;
     font-family: inherit;
     font-size: 0.9rem;
-    border: 2px solid transparent;
+    border: 2px solid #424237;
+    border-radius: 6px;
+    outline: none;
 }
 
-input:focus,
+.form-2 input:focus,
 textarea:focus {
-    border: 2px solid #9C452A;
-    outline: none;
-} */
+    border-color:#D27456;
+} 
 
 .button {
     padding: 0.5rem 2rem;
