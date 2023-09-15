@@ -102,6 +102,10 @@
     background-color: #424237;
     color: #E6E6E1;
 }
+.bg-color {
+    background-color: #D27456;
+    color: #E6E6E1;
+}
 .bg-featured { background-color: #d9cfc2;}
 .bg-light { background-color:#E6E6E1;}
 
@@ -349,6 +353,43 @@ footer .fa {
 
 
 /* Buttons & Forms  ------------ */
+
+form input {
+    width: 15%;
+    margin: 0.5rem 1rem 0.5rem 0.5rem; /*if you have margin on left and right , once the form stacks it no longer aligns with the value*/
+    padding: 0.5rem;
+    border: 1px solid #424237;
+    border-radius: 6px;
+    outline: none;
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+input:focus {
+    border-color: #d27456;
+}
+
+form label {
+    font-weight: bold;
+}
+
+.container {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #E6E6E1;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+/* This is old form for sleepco project -delete once done 
 input,
 textarea {
     width: 100%;
@@ -364,7 +405,7 @@ input:focus,
 textarea:focus {
     border: 2px solid #9C452A;
     outline: none;
-}
+} */
 
 .button {
     padding: 0.5rem 2rem;
@@ -384,6 +425,7 @@ textarea:focus {
 .feature-button:hover {
     color: #424237;
 }
+
 
 
 
