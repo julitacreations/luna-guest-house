@@ -333,6 +333,19 @@ footer .fa {
 .bg-hosts {   
     background-image: url('/images/luna-guest-house-hosts.jpg');
 }
+.bg-village {   
+    background-image: url('/images/luna-guest-house-village.jpg');
+}
+.bg-house {   
+    background-image: url('/images/luna-guest-house-house.jpg');
+}
+.bg-food {   
+    background-image: url('/images/luna-guest-house-food.jpg');
+    background-position: 50% 80%;
+}
+.bg-map {   
+    background-image: url('/images/luna-guest-house-map.jpg');
+}
 
 
 

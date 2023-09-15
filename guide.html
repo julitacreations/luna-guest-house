@@ -2,22 +2,25 @@
 <html>
     <!---This is the head of our html where we add external resources -->
 <head>
-
     <!-- Viewport meta for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title> About The Sleep Co</title>
+
+    <title> Luna's Guide</title>
 
     <!-- This is our fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- This is google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0" />
+
     <!-- Gridlex for flexbox grids -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
-    <!-- Google fonts- Catamaran (200,400,500,800)-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <!-- Google fonts- Source Sans 3 (200,300,400,500)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
 
     <!--This is our custom stylesheet -->
     <link href="/style.css" rel="stylesheet">
@@ -28,137 +31,167 @@
 <html>
 <body>
 
-    
     <!-------------------- Header Banner -------------------->
-    <header class="grid center tall-60">
-        <div class="header-nav grid col-12-top">
-            <div class="col-5_sm-12-middle sm-padded-b-0">
+    <header class="grid">
+        <div class="header-nav grid-spaceBetween col-12-top">
+            <div class="col-5_sm-12-middle padded-2">
                 <a href="/index.html" class="logo">
-                    <h2> The Sleep Co </h2>
+                    <h2> Luna's Guest House </h2>
                 </a>
             </div>
-            <nav class="col-7_sm-12-middle right sm-text-center">
+            <nav class="col-6_sm-12-middle right sm-text-center padded-2">
                 <a href="/index.html"> Home </a>
-                <a href="/about.html"> About </a>
-                <a href="/products.html"> Products </a>
+                <a href="/rooms.html"> Rooms </a>
+                <a href="/guide.html"> Guide </a>
                 <a href="/contact.html"> Contact </a>
+                <a href="/#.html" class="book-now-button"> Book Now </a>
             </nav>
-        </div>
-        <div class="col-12-middle">
-            <h3 class="font-weight-extra-bold"> 
-                <span class="featured-text"> addictively </span> soft 
-            </h3>
-            <h1 class="font-weight-light"> you won't want to leave bed </h1>
         </div>
     </header>
 
-     <!--------------- Text Gird section  --------------->
-     <section class="padded grid bg-featured">
-        <div class="padded-sm col-12 center"> 
-            <h2> <span class="light-text">features </span> you will love </h2>
-        </div>
-        <div class="padded-sm col-3"> 
-            <h3> little heading 1</h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi aspernatur dolor vitae. Repudiandae provident illum quis vitae sed asperiores. Provident error repellendus illo fugiat iure hic temporibus architecto cum.</p>
-        </div>
-        <div class="padded-sm col-3"> 
-            <h3> little heading 2</h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi aspernatur dolor vitae. Repudiandae provident illum quis vitae sed asperiores. Provident error repellendus illo fugiat iure hic temporibus architecto cum.</p>
-        </div>
-        <div class="padded-sm col-3"> 
-            <h3> little heading 3</h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi aspernatur dolor vitae. Repudiandae provident illum quis vitae sed asperiores. Provident error repellendus illo fugiat iure hic temporibus architecto cum.</p>
-        </div>
-        <div class="padded-sm col-3"> 
-            <h3> little heading 4</h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi aspernatur dolor vitae. Repudiandae provident illum quis vitae sed asperiores. Provident error repellendus illo fugiat iure hic temporibus architecto cum.</p>
-        </div>
-     </section>
-
-    <!--------------- Cards section  --------------->
-
-    <section class="grid padded">
-        <div class="col-4 padded-sm">
-            <div class="card">
-                <div class="bg-image portrait"></div>
-                <div class="padded-1">
-                    <h3> little heading </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolores soluta totam recusandae qui quidem sequi itaque atque molestiae modi, magni perferendis autem laboriosam ullam, sapiente, temporibus illo nam! Aut!</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-4 padded-sm">
-            <div class="card">
-                <div class="bg-image portrait"></div>
-                <div class="padded-1">
-                    <h3> little heading </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolores soluta totam recusandae qui quidem sequi itaque atque molestiae modi, magni perferendis autem laboriosam ullam, sapiente, temporibus illo nam! Aut!</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-4 padded-sm">
-            <div class="card">
-                <div class="bg-image portrait"></div>
-                <div class="padded-1">
-                    <h3> little heading </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolores soluta totam recusandae qui quidem sequi itaque atque molestiae modi, magni perferendis autem laboriosam ullam, sapiente, temporibus illo nam! Aut!</p>
-                </div>
+    <section class="grid header-bg bg-village center bg-overlay">
+        <div class="col-12-middle tall-80 md-tall-80 padded">
+            <div class="light-text">
+                <h1> Your Local Guide
+                    <br> to Alcatra
+                </h1>
             </div>
         </div>
     </section>
 
 
-     <!--------------- Image Banner section --------------->
-     <section class="padded center bg-dark tall-60 grid">
+
+ <!-------------- About Location Section --------------->
+ <section class="grid">
+    <div class="padded padded-b-1 col-9_xs-12-middle">
+        <h2 class="uppercase"> The Town </h2>
+        <h3> Visit our chic, <br>adorable small town <br> getaway </h3>
+    </div>
+    <div class="col-4">
+    </div>
+    <div class="padded padded-t-0 col-8_xs-12"> 
+        <p> Located in the small town of Alcatra, youll find this beautiful haven of warmth and hospitality, exactly how you'd imagine a small French town. Lorem ipsum dolor sit amet consectetur modi illum impedit, natus little aboriosam corrupti qui. Illo nisi tenetur consequuntur quasi perspiciatis autem et. Alias pariatur enim, a few fugiat maiores sint veritatis. Elit non odit reprehenderit accusamus, maxime ab voluptates, distinctio facilis hic ad repellat eum quisquam aliquam totam temporibus voluptatibus asperiores amet minus? Quo.</p>
+    </div>
+</section>
+
+
+
+<!--------------- Gallery / Town Activity Section --------------->
+<section class="grid padded padded-b-0">
+    <div class="bg-image bg-house col-7 tall-80"> 
+        <!--background image-->
+    </div>
+    <div class="col-5-middle padded padded-r-0">
+        <h4 class="uppercase"> Hensels Spot</h4>
+        <p> A home that was build in the 1900, now serving as a chocolatier. </p>
+        <p>This is a must- visit if you have a sweet tooth. </p>
+        <p>Address:  99 Sweet street. </p>
+    </div>
+</section>
+
+<section class="grid padded-lg padded-t padded-b-0">
+    <div class="col-5-middle padded padded-l-0">
+        <h4 class="uppercase"> Alcatra Bakery</h4>
+        <p>This bakery has the famous Alcatras pastry and it is also where we collect our breakfast that you get to enjoy when you stay with us.</p>
+        <p> They are a no-waste bakery and we love supporting our local friends. </p>
+        <p>Address:  99 Bakery street. </p>
+    </div>
+    <div class="bg-image bg-breakfast col-7 tall-80"> 
+        <!--background image-->
+    </div>
+</section>
+
+<section class="grid padded-lg padded-t padded-b-0">
+    <div class="bg-image bg-flower col-7 tall-80"> 
+        <!--background image-->
+    </div>
+    <div class="col-5-middle padded padded-r-0">
+        <h4 class="uppercase"> Local Flower Market</h4>
+        <p> Find yourself surrounded by local flowers and incredible fragrances. </p>
+        <p>This is a must- visit if you have a green thumb. </p>
+        <p>Address:  99 Flower street. </p>
+    </div>
+</section>
+
+<section class="grid padded-lg padded-t padded-b-0">
+    <div class="col-5-middle padded padded-l-0">
+        <h4 class="uppercase"> River Walk Cleanup</h4>
+        <p>We all have to look after our planet and in order to continue welcoming lovely guests from all over the world, we regularly join our local river walk clean-up to keep our community clean. </p>
+        <p> If you’d like to join, its always a blast, with a coffee and pastry from Alcatra Bakery included!</p>
+    </div>
+    <div class="bg-image bg-bottle col-7 tall-80"> 
+        <!--background image-->
+    </div>
+</section>
+
+<section class="grid padded-lg padded-t padded-b-0">
+    <div class="bg-image bg-food col-7 tall-80"> 
+        <!--background image-->
+    </div>
+    <div class="col-5-middle padded padded-r-0">
+        <h4 class="uppercase"> Peas Gourmet Restaurant</h4>
+        <p> Find yourself surrounded by local flowers and incredible fragrances. </p>
+        <p>This is a must- visit if you have a green thumb. </p>
+        <p>Address:  99 Flower street. </p>
+    </div>
+</section>
+
+
+
+     <!--------------- Call to Action Banner section --------------->
+     <section class="padded-lg center tall-60 grid">
         <div class="col-12-middle">
             <h3 class="big-text"> 
-                <span class="small-text font-weight-normal">spend over $150 and activate</span> 
-                <br> <span class="featured-text">free </span> express shipping
+                Still need to book your <br> accomodation for Alcatra?
             </h3>
+            <a href="#" class="button feature-button uppercase"> Book now</a>
         </div>
      </section>
 
-     <!--------------- Gallery / about Section --------------->
-    <section class="grid">
-        <div class="padded col-6-middle">
-            <h2> build to last a <span class="featured-text">lifetime</span> </h2>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo nisi tenetur consequuntur quasi perspiciatis autem et. Alias pariatur enim, fugiat maiores sint veritatis. </p>
-            <p> Lorem ipsum dolor sit amet consectetur modi illum impedit, natus laboriosam corrupti qui.</p>
-        </div>
-        <div class="bg-image bg-bed col-6 tall-70"> 
-            <!--background image-->
-        </div>
-        <div class="bg-image bg-pug col-6 tall-70">
-            <!--background image-->
-        </div>
-        <div class="padded col-6-middle">
-            <h2> so <span class="featured-text">soft</span> you'll melt </h2>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo nisi tenetur consequuntur quasi perspiciatis autem et. Alias pariatur enim, fugiat maiores sint veritatis, modi illum impedit, natus laboriosam corrupti qui.</p>
-        </div>
-        <div class="padded col-6-middle">
-            <h2> build to last a <span class="featured-text">lifetime</span> </h2>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo nisi tenetur consequuntur quasi perspiciatis autem et. Alias pariatur enim, fugiat maiores sint veritatis. </p>
-            <p> Lorem ipsum dolor sit amet consectetur modi illum impedit, natus laboriosam corrupti qui.</p>
-        </div>
-        <div class="bg-image bg-bed col-6 tall-70"> 
-            <!--background image-->
-        </div>
-    </section>
-
      
-     <!--------------- Footer --------------->
-     <footer class="padded grid-spaceBetween bg-dark">
-        <div class="col-4-bottom"> 
-            <h2> Let's <br> <span class="featured-text">connect </span> </h2>
+    <!--------------- Footer --------------->
+    <footer class="grid-spaceBetween-top bg-featured padded">
+        <div class="col-6_md-12_xs-12">
+            <h2 class="margin-b-1"> Luna's Guest House </h2>
+            <p> <strong>Address:</strong> 552 Drive Street, 
+                <br> 1234 Alcatra, Country 
+            </p>
+            <a href="tel#"> 072684628 </a>
+            <a href="mailto#"> hello@thelunacco.co</a>
         </div>
-        <div class="col-5-bottom">
-            <p> <strong> Call:</strong> <a href="tel#"> 072684628 </a> </p>
-            <p> <strong>Email:</strong> <a href="mailto#"> hello@thesleepco.co</a> </p>
-            <p> <strong>Store:</strong> 55 Main Street, Chicago </p>
-            <p> <strong>Instagram:</strong> <a href="https://www.instagram.com/thesleepco"> @thesleepco.co </a> </p>
-            
+        <nav class="col-2_md-6_xs-12">
+            <h4 class="padded-l-05"> Explore </h4>
+                <a href="#"> Home </a>
+                <a href="#"> Guest House </a>
+                <a href="#"> Activities </a>
+                <a href="#"> Contact </a>
+       
+        </nav>
+        <nav class="col-2_md-6_xs-12"> 
+            <h4 class="padded-l-05"> Connect </h4>
+                <a href="#"> Facebook </a>
+                <a href="#"> Instagram </a>
+                <a href="#"> Tik Tok </a>  
+        </nav>
+    </footer>
+
+    <!---Sub Footer-->
+    <div class="grid-spaceBetween padded-xs subtitle-footer center bg-featured">
+        <div class="col-4">
+            <p>Luna's Guest House 2023 | All Rights Reserved </p>
         </div>
-     </footer>
+        <div class="col-4">
+            <p> 
+                <a href="#" class="display-link"> Terms & Conditions </a> |
+                <a href="#" class="display-link">  Privacy Policy</a> 
+            </p>
+        </div>
+        <div class="col-4">
+            <p class="display-link">Photos Unsplash | 
+                <a href="#" class="display-link"> Website by Julita Creations Studio </a> 
+            </p>
+        </div>
+    </div>
 
 </body>
 </html>
