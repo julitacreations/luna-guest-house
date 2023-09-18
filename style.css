@@ -457,12 +457,18 @@ textarea:focus {
 
     .md-text-center {text-align: center;}
 
+    .md-tall-40 {min-height: 40vh;}
+    .md-tall-50 {min-height: 50vh;}
     .md-tall-70 {min-height: 70vh;}
     
     h1  { font-size: 6rem;}
 
-    .md-padded-t {padding-top: 5%;}
-    .md-padded-l-0 {padding-left:0;}
+    .md-padded      {padding: 2.5%;}
+    .md-padded-t    {padding-top: 5%;}
+    .md-padded-l-0  {padding-left:0;}
+
+    .md-image-border { border: 3px solid white;}
+   
 
 
 }
