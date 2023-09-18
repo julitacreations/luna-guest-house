@@ -109,15 +109,24 @@
 /* Image Styles & classes */
 
 .bg-image {
+    background-color: #d27456;
     background-image: url('/images/luna-guest-house-bath.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     /*min-height: 10rem;*/
 }
 
-.landscape  {    padding-bottom: 65%;}
-.portrait   {    padding-bottom: 125%;}
-.square     {    padding-bottom: 100%;}
+.gallery [class*="col-"] {
+    padding: 0.5%;
+}
+
+.landscape       { padding-bottom: 65%; }
+.portrait        { padding-bottom: 125%;}
+.square          { padding-bottom: 100%;}
+.portrait-tall   { padding-bottom: 175%;}
+.landscape       { padding-bottom: 66%; }
+.landscape-wide  { padding-bottom: 56%; }
 
 .image-border { border: 10px solid white;}
 
