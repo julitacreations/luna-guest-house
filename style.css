@@ -446,9 +446,14 @@ textarea:focus {
 	.show-md { display: block; }
 	.hide-md { display: none; }
 
+    .md-text-center {text-align: center;}
+
     .md-tall-70 {min-height: 70vh;}
     
     h1  { font-size: 6rem;}
+
+    .md-padded-t {padding-top: 5%;}
+    .md-padded-l-0 {padding-left:0;}
 
 
 }
@@ -482,6 +487,8 @@ textarea:focus {
     .logo h2 { font-size: 2rem;}
 
     header h1 { font-size: 10vw;}
+
+    .sm-subtitle-footer { font-size: 0.7rem; }
 }
 
 /* --------------- XS Media Query (36em / 576px) --------------- */ 
