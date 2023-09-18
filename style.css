@@ -9,10 +9,6 @@
     Fonts: 
         font-family: 'Source Sans 3', sans-serif;
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
-
 */
 
 /* CSS Reset */
@@ -96,7 +92,7 @@
 .width-30 { min-width: 30vw; }
 
 
-/* Background & Background Images  ------------------- */
+/* Background & Background Images  ------------------------- */
 
 .bg-dark {
     background-color: #424237;
@@ -106,25 +102,24 @@
     background-color: #D27456;
     color: #E6E6E1;
 }
-.bg-featured { background-color: #d9cfc2;}
-.bg-light { background-color:#E6E6E1;}
+.bg-featured    { background-color:#d9cfc2;}
+.bg-light       { background-color:#E6E6E1;}
 
 
-
-/* Image Styles */
+/* Image Styles & classes */
 
 .bg-image {
-    background-image: url('/images/the-sleep-co1.jpg');
+    background-image: url('/images/luna-guest-house-bath.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     /*min-height: 10rem;*/
 }
 
-.landscape {    padding-bottom: 65%;}
-.portrait {    padding-bottom: 125%;}
-.square {    padding-bottom: 100%;}
+.landscape  {    padding-bottom: 65%;}
+.portrait   {    padding-bottom: 125%;}
+.square     {    padding-bottom: 100%;}
 
-.border { border: 10px solid white;}
+.image-border { border: 10px solid white;}
 
 
 /* Typography Styles--------------------------- */
@@ -194,7 +189,7 @@ a:hover {
 }
 
 
-/* List Styles-------------------------  */ 
+/* List Styles-----  */ 
 
 ul {
     display: block;
@@ -218,7 +213,6 @@ h1 {
     font-size: 7rem;
 }
 
-
 nav a {
     padding: 0.5rem;
     line-height: 1;
@@ -233,12 +227,10 @@ nav a {
 .logo h2 {
     font-size: 2rem;
 }
-
-
   
 .bg-overlay {
     position: relative;
-  }
+}
   
 .bg-overlay::before {
     content: ""; 
@@ -260,39 +252,14 @@ footer a {
     display: block;
 }
 
-.display-link {display: inline-block;}
-
 .subtitle-footer {
         font-size: 0.8rem;
         font-style: italic;
         font-weight: light;
 }
 
-footer .fa {
-    display: block;
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: 1.8rem;
-} 
-
-.book-now-button {
-    padding: 0.5rem 1.4rem;
-    background-color: #D27456;
-    color: #E6E6E1;
-    appearance: none;
-    border: 2px solid #d27456;
-    border-radius: 6px;
-  }
-
-  .book-now-button:hover {
-    color: #424237;
-}
-
-
-
 
 /* Background Images—————————-—— */
-
 
 /*.bg-image {
     background-color:  rgb(199, 199, 199);
@@ -300,7 +267,6 @@ footer .fa {
     background-position: center; 
     background-repeat: no-repeat;
 } */
-
 
 .bg-library {   
     background-image: url('/images/luna-guest-house-library.jpg');
@@ -332,6 +298,7 @@ footer .fa {
 }
 .bg-hosts {   
     background-image: url('/images/luna-guest-house-hosts.jpg');
+    background-position: 50% 70%;
 }
 .bg-village {   
     background-image: url('/images/luna-guest-house-village.jpg');
@@ -351,21 +318,7 @@ footer .fa {
 }
 
 
-
-
-.bg-pug {   
-    background-image: url('/images/the-sleep-co1.jpg');
-    background-position: 50% 42%;
-    border: 10px solid white;
-}
-.bg-bed {   background-image: url('/images/luna-guest-house-bed-right.jpg');}
-.bg-pillow {   
-    background-image: url('/images/the-sleep-co2.jpg');
-    background-position: 50% 54%;
-}
-
-
-/* Icon Grid - Fontawesome-------- */
+/* Icon Grid - Fontawesome----------- */
 
 .fa {
     display: block;
@@ -388,7 +341,7 @@ footer .fa {
 }
 
 
-/* Buttons & Forms  ------------ */
+/* Buttons & Forms  --------------------------- */
 
 form input {
     width: 15%;
@@ -418,8 +371,7 @@ form label {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
-/*Contact form version 2*/
+/*Contact form version 2--------*/
 .form-2 input,
 textarea {
     width: 100%;
@@ -439,6 +391,7 @@ textarea:focus {
     border-color:#D27456;
 } 
 
+/*Button Variations--------*/
 .button {
     padding: 0.5rem 2rem;
     background-color: #d9cfc2;
@@ -460,6 +413,18 @@ textarea:focus {
     color: #424237;
 }
 
+.book-now-button {
+    padding: 0.5rem 1.4rem;
+    background-color: #D27456;
+    color: #E6E6E1;
+    appearance: none;
+    border: 2px solid #d27456;
+    border-radius: 6px;
+  }
+
+.book-now-button:hover {
+    color: #424237;
+}
 
 
 
@@ -481,7 +446,11 @@ textarea:focus {
 	.show-md { display: block; }
 	.hide-md { display: none; }
 
-    .md-tall-80 {min-height: 80vh;}
+    .md-tall-70 {min-height: 70vh;}
+    
+    h1  { font-size: 6rem;}
+
+
 }
 
 /* --------------- SM Media Query (48em / 768px) --------------- */ 
@@ -512,7 +481,7 @@ textarea:focus {
 
     .logo h2 { font-size: 2rem;}
 
-    header h3 { font-size: 11vw;}
+    header h1 { font-size: 10vw;}
 }
 
 /* --------------- XS Media Query (36em / 576px) --------------- */ 
@@ -522,22 +491,15 @@ textarea:focus {
 
     body { border: 2px solid red;}
 
-		.show-xs { display: block; }
-		.hide-xs { display: none; }
+    html    { font-size: 12px;}
 
-        h1 {
-            font-size: 1.4rem;
-            line-height: 1.1;
-        }
+	.show-xs { display: block; }
+	.hide-xs { display: none; }
 
-        h2 { font-size: 2rem; }
+    .big-text       { font-size: 3.5rem; }
+    .medium-text    { font-size: 1.5rem; }
 
-        .big-text       { font-size: 3.5rem; }
-        .medium-text    { font-size: 1.5rem; }
-
-        .xs-tall-50 { min-height: 50vh; }
-
-        
+    .xs-tall-50 { min-height: 50vh; }    
 }
 
 
@@ -552,7 +514,6 @@ textarea:focus {
         flex-basis: 100%;
         max-width: 100%;
     }
-		
 }
 
 
