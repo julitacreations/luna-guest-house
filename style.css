@@ -432,7 +432,7 @@ textarea:focus {
     color: #E6E6E1;
     border: 1px solid #D27456;
     border-radius: 50%;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 1;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -440,7 +440,12 @@ textarea:focus {
 
 
 .book-now-button:hover {
-    color: #424237;
+    background-color:#9C452A;
+    border: 1px solid #9C452A;
+    color:#E6E6E1;
+    box-shadow: 
+    rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, 
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .sticky-button {
@@ -476,7 +481,7 @@ textarea:focus {
 
     .md-tall-40 {min-height: 40vh;}
     .md-tall-50 {min-height: 50vh;}
-    .md-tall-90 {min-height: 90vh;}
+    .md-tall-80 {min-height: 80vh;}
     
     h1  { font-size: 6rem;}
 
@@ -525,6 +530,17 @@ textarea:focus {
 
     .sm-subtitle-footer p { font-size: 0.7rem; }
 
+    .sticky-button {
+        position: fixed;
+        right: 2rem;
+        top: 20%;
+    }
+    .book-now-button {
+        width: 80px;
+        height: 80px;
+        font-size: 1.5rem;
+    }
+
 }
 
 /* --------------- XS Media Query (36em / 576px) --------------- */ 
@@ -535,6 +551,8 @@ textarea:focus {
     body    { border: 2px solid red;}
 
     html    { font-size: 12px;}
+
+    header h1 { font-size: 8vw;}
 
     h3      {font-size: 3.2rem;}
 
@@ -547,7 +565,13 @@ textarea:focus {
     .big-text       { font-size: 3.5rem; }
     .medium-text    { font-size: 1.5rem; }
 
-    .xs-tall-50 { min-height: 50vh; }    
+    .xs-tall-50 { min-height: 50vh; }   
+    
+    .book-now-button {
+        width: 66px;
+        height: 66px;
+        font-size: 1.4rem;
+    }
 }
 
 
@@ -563,6 +587,8 @@ textarea:focus {
 
     .show-xxs { display: block; }
 	.hide-xxs { display: none; }
+
+    h1 {font-size: 4.8rem;}
 }
 
 
