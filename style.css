@@ -430,7 +430,7 @@ textarea:focus {
     height: 100px;
     background-color: #D27456;
     color: #E6E6E1;
-    border: none;
+    border: 1px solid #D27456;
     border-radius: 50%;
     font-size: 1.5rem;
     line-height: 1;
@@ -447,9 +447,7 @@ textarea:focus {
     position: fixed;
     right: 2rem;
     top: 50%;
-    z-index: 5;
 }
-
 
 
 
