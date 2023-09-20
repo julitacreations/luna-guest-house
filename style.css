@@ -198,6 +198,7 @@ header {
     z-index: 100;
 }
 
+
 .header-nav {
     background-color: #d9cfc2;
 }
@@ -460,11 +461,12 @@ textarea:focus {
 
     .md-tall-40 {min-height: 40vh;}
     .md-tall-50 {min-height: 50vh;}
-    .md-tall-70 {min-height: 70vh;}
+    .md-tall-90 {min-height: 90vh;}
     
     h1  { font-size: 6rem;}
 
     .md-padded      {padding: 2.5%;}
+    .md-padded-05   {padding: 0.5rem;}
     .md-padded-b    {padding-bottom: 0.5rem;}
     .md-padded-t    {padding-top: 5%;}
     .md-padded-l-0  {padding-left:0;}
