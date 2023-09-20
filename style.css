@@ -191,6 +191,13 @@ nav a {
     margin: 0.2rem;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
 .header-nav {
     background-color: #d9cfc2;
 }
