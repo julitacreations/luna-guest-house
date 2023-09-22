@@ -24,9 +24,6 @@
 ﻿
 [class*="grid-"], [class*="grid_"], [class~="grid"] {margin:0;} 
 
-html {
-    scroll-behavior: smooth;
-}
 
 
 /* -------------- Universal Styles & utility classes--------------------- */
