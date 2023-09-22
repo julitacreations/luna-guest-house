@@ -24,6 +24,10 @@
 ﻿
 [class*="grid-"], [class*="grid_"], [class~="grid"] {margin:0;} 
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* -------------- Universal Styles & utility classes--------------------- */
 
@@ -176,7 +180,6 @@ ul {
     background-image: url('/images/luna-guest-house-bed-end.jpg');
     background-size: cover;
     background-position: center;
-    padding: 2% 5%;
 }
 
 h1 {
@@ -198,12 +201,11 @@ nav a {
     z-index: 100;
 } */
 
-
-
-
-.header-nav {
+header { 
+    padding: 1% 5%;
     background-color: #d9cfc2;
 }
+
 
 .logo h2 {
     font-size: 2rem;
