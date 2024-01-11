@@ -309,7 +309,7 @@ footer a {
 }
 .bg-hosts {   
     background-image: url('/images/luna-guest-house-hosts.jpg');
-    background-position: 50% 70%;
+    background-position: 50% 40%;
 }
 .bg-village {   
     background-image: url('/images/luna-guest-house-village.jpg');
@@ -568,18 +568,20 @@ textarea:focus {
     .xs-padded-b-2 {padding-bottom: 2rem; }
 
     .xs-text-center {text-align: center;}
+    .xs-text-left {text-align: left;}
 
     .big-text       { font-size: 2.8rem; }
     .medium-text    { font-size: 1.5rem; }
 
     .xs-tall-50 { min-height: 50vh; }   
     
+
+
     .book-now-button {
         width: 66px;
         height: 66px;
         font-size: 1.4rem;
     }
-
 
     .flex-flip-xs { flex-direction: column-reverse; }
 }
